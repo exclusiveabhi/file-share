@@ -26,13 +26,17 @@
     <div style="display: flex; align-items: center; width: 100%">
       <div style="width: 50%; background-color: beige; padding: 20px">
         <h2>Local</h2>
-        <textarea id="localConfigText" cols="50" rows="15"></textarea>
-        <button id="connectLocalConfig">Create local offer</button>
+        <br>
+        <input type="text" id="localConfigText" >
+       
+        <button id="connectLocalConfig">Create Code</button>
       </div>
 
       <div style="width: 50%; padding: 20px; background: beige">
         <h2>Remote</h2>
-        <textarea id="remoteConfigText" cols="50" rows="15"></textarea>
+        <br>
+        <input type="text" id="remoteConfigText">
+      
         <button id="connectRemoteConfig">Connect</button>
       </div>
     </div>
@@ -41,12 +45,13 @@
     <hr />
     <br />
 
-    <div>
+    <div><center>
       <input type="file" id="file-upload" />
       <button hidden id="sendFile">Send file</button><br />
       <progress id="progress" value="0"></progress>&nbsp;&nbsp;<label
         id="progressLabel"
       ></label>
+    </center>
     </div>
 
     <br />
